@@ -1,0 +1,3 @@
+tellraw @s [{"text":"Reinicios: ","color":"yellow"},{"score":{"name":"#gen","objective":"wr.state"}},{"text":" | Reinicio activo: "},{"score":{"name":"#enabled","objective":"wr.state"}},{"text":" | Cuenta regresiva (s): "},{"score":{"name":"#seconds","objective":"wr.state"}}]
+tellraw @s [{"text":"Compartido -> inventario: ","color":"aqua"},{"score":{"name":"#share_inv","objective":"wr.state"}},{"text":" | corazones: "},{"score":{"name":"#share_hp","objective":"wr.state"}},{"text":" | hambre: "},{"score":{"name":"#share_food","objective":"wr.state"}}]
+tellraw @s [{"text":"Vida del equipo: ","color":"red"},{"score":{"name":"#hp","objective":"wr.state"}},{"text":" /100  | Hambre del equipo: "},{"score":{"name":"#food","objective":"wr.state"}}]

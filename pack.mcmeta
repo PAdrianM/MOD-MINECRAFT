@@ -1,7 +1,10 @@
 {
   "pack": {
-    "description": "World Reset on Death - si alguien muere, el mundo se reinicia para todos",
-    "min_format": [121, 0],
+    "description": "World Reset + inventario, corazones y hambre compartidos",
+    "min_format": [
+      121,
+      0
+    ],
     "max_format": 999
   }
 }
