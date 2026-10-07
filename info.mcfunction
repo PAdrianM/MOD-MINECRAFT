@@ -1,0 +1,1 @@
+tellraw @s [{"text":"Reinicios: ","color":"yellow"},{"score":{"name":"#gen","objective":"wr.state"}},{"text":" | Activo (1=sí): "},{"score":{"name":"#enabled","objective":"wr.state"}},{"text":" | Cuenta regresiva (s): "},{"score":{"name":"#seconds","objective":"wr.state"}}]
