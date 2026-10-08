@@ -4,6 +4,7 @@ time set 0
 weather clear
 kill @e[type=minecraft:item]
 kill @e[type=minecraft:experience_orb]
+function worldreset:share_reset
 # Spawn lejano en terreno nunca explorado (se borra el anterior para no reutilizarlo nunca)
 # Recordar el spawn anterior para alejarse 50 000+ de él
 execute if data storage worldreset:spawn x store result score #px wr.state run data get storage worldreset:spawn x
